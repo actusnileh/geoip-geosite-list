@@ -1,7 +1,7 @@
 import argparse
 
-from .generate import generate
-from ._version import __version__
+from geoip_geosite_list.generate import generate
+from geoip_geosite_list._version import __version__
 
 
 def main():
