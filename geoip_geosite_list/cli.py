@@ -1,6 +1,6 @@
 import argparse
 
-from geoip_geosite_list.generate import generate
+from geoip_geosite_list.generate import generate_json, generate_txt
 from geoip_geosite_list._version import __version__
 
 
@@ -16,8 +16,11 @@ def main():
     parser.add_argument(
         "-g",
         "--generate",
-        action="store_true",
-        help="Generate .txt file with domains.",
+        choices=[
+            "txt",
+            "json",
+        ],
+        help="Generate .txt or .json file with domains.",
     )
 
     args = parser.parse_args()
@@ -26,7 +29,10 @@ def main():
         print(f"version: {__version__}")
     elif args.generate:
         try:
-            generate()
+            if args.generate == "txt":
+                generate_txt()
+            elif args.generate == "json":
+                generate_json()
         except Exception as e:
             print(f"Error generating domains: {e}")
     else:
