@@ -47,10 +47,15 @@ jobs:
         name: ${{ matrix.os }}-executable
         path: dist/
 
-    - name: Test executable
+    - name: Test executable on Linux/macOS
+      if: runner.os != 'Windows'
       run: |
-        if [ ${{ runner.os }} = 'Windows' ]; then
-          dist\geogenerate.exe --version
-        else
-          dist/geogenerate --version
-        fi
+        dist/geogenerate --version
+        dist/geogenerate -g
+
+    - name: Test executable on Windows
+      if: runner.os == 'Windows'
+      shell: pwsh
+      run: |
+        .\dist\geogenerate.exe --version
+        .\dist\geogenerate.exe -g
