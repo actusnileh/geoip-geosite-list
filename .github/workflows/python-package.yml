@@ -39,7 +39,7 @@ jobs:
 
     - name: Build executable
       run: |
-        poetry run pyinstaller --onefile --name=geogenerate --add-binary "/usr/lib/libssl.so.3:." --add-binary "/usr/lib/libcurl.so.4:." geoip_geosite_list/cli.py
+        poetry run pyinstaller --onefile --name=geogenerate geoip_geosite_list/cli.py
 
     - name: Upload executable
       uses: actions/upload-artifact@v3
