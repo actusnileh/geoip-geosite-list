@@ -1,4 +1,4 @@
-name: Build Executables
+name: Build and Test Executables
 
 on:
   push:
@@ -39,10 +39,18 @@ jobs:
 
     - name: Build executable
       run: |
-        poetry run pyinstaller --onefile --name=geogenerate geoip_geosite_list/cli.py
+        poetry run pyinstaller --onefile --name=geogenerate --hidden-import=git geoip_geosite_list/cli.py
 
     - name: Upload executable
       uses: actions/upload-artifact@v3
       with:
         name: ${{ matrix.os }}-executable
         path: dist/
+
+    - name: Test executable
+      run: |
+        if [ ${{ runner.os }} = 'Windows' ]; then
+          dist\geogenerate.exe --version
+        else
+          dist/geogenerate --version
+        fi
