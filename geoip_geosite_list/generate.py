@@ -49,7 +49,11 @@ def generate_json():
         item_path = os.path.join(CACHE_DOMAINS_PATH, item)
         if os.path.isfile(item_path):
             with open(item_path, "r") as file:
-                domains[item] = file.read().splitlines()
+                domains[item] = [
+                    line
+                    for line in file.read().splitlines()
+                    if line.strip() and "#" not in line
+                ]
 
     with open(DOMAINS_FILE_JSON, "w") as domains_json:
         json.dump(domains, domains_json, indent=4)

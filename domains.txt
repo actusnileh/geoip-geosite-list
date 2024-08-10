@@ -491,6 +491,7 @@ golang
 goodreads
 google
 google-ads
+google-gemini
 google-registry
 google-registry-tld
 google-scholar
