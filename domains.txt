@@ -247,6 +247,7 @@ category-social-media-!cn
 category-social-media-cn
 category-social-media-ir
 category-tech-ir
+category-tech-media
 category-travel-ir
 category-vpnservices
 category-wiki-cn
