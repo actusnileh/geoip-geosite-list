@@ -12,7 +12,6 @@
 4paradigm
 4plebs
 51job
-51nod
 54647
 58tongcheng
 5ch
@@ -75,6 +74,7 @@ ap
 apa
 aparat
 apifox
+apipost
 apkcombo
 apkmirror
 apkpure
@@ -185,10 +185,13 @@ category-acg
 category-ads
 category-ads-all
 category-ads-ir
+category-ai-chat-!cn
+category-ai-cn
 category-android-app-download
 category-anticensorship
 category-bank-cn
 category-bank-ir
+category-bank-jp
 category-blog-cn
 category-bourse-ir
 category-browser-!cn
@@ -207,6 +210,7 @@ category-education-ir
 category-enhance-gaming
 category-enterprise-query-platform-cn
 category-entertainment
+category-entertainment-cn
 category-finance
 category-food-cn
 category-forums
@@ -216,7 +220,7 @@ category-games
 category-gov-ir
 category-gov-ru
 category-hospital-cn
-category-httpdns
+category-httpdns-cn
 category-insurance-ir
 category-ipfs
 category-ir
@@ -231,6 +235,7 @@ category-novel
 category-ntp
 category-ntp-cn
 category-ntp-jp
+category-olympiad-in-informatics
 category-orgs
 category-payment-ir
 category-porn
@@ -492,6 +497,7 @@ golang
 goodreads
 google
 google-ads
+google-deepmind
 google-gemini
 google-registry
 google-registry-tld
@@ -886,6 +892,7 @@ playstation
 plutotv
 pocketcasts
 pocoiq-ads
+poe
 polymer
 polyv
 pornhub
@@ -909,6 +916,7 @@ qcc
 qcloud
 qichamao
 qihoo360
+qihoo360-ads
 qingcloud
 qingtingfm
 qiniu
