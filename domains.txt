@@ -192,6 +192,7 @@ category-anticensorship
 category-bank-cn
 category-bank-ir
 category-bank-jp
+category-bank-mm
 category-blog-cn
 category-bourse-ir
 category-browser-!cn
@@ -246,6 +247,7 @@ category-ru
 category-scholar-!cn
 category-scholar-cn
 category-scholar-ir
+category-scholar-uk
 category-securities-cn
 category-shopping-ir
 category-social-media-!cn
@@ -312,6 +314,7 @@ coinone
 collabora
 colorfulclouds
 comodo
+connectivity-check
 contentful
 coolapk
 corel
@@ -499,6 +502,7 @@ google
 google-ads
 google-deepmind
 google-gemini
+google-play
 google-registry
 google-registry-tld
 google-scholar
@@ -508,6 +512,7 @@ goproxy
 gracg
 gravatar
 greatfire
+gree
 growingio-ads
 gucci
 guo
@@ -745,6 +750,7 @@ miaopai
 microsoft
 microsoft-dev
 microsoft-pki
+midea
 mihoyo
 mihoyo-cn
 mikrotik
@@ -1194,6 +1200,7 @@ wanfang
 wangsu
 wantmedia
 watchout
+weathercn
 webex
 webflow
 webnovel
