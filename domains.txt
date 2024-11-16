@@ -564,6 +564,7 @@ hubblephone
 huffpost
 hujiang
 hulu
+hunantv
 hunantv-ads
 huobi
 hupu
@@ -672,6 +673,7 @@ kucoin
 kugou
 kugou-ads
 kurogames
+kuwo
 kyodonews
 lagou
 landian
@@ -1074,6 +1076,7 @@ swift
 swisssign
 sxl
 symantec
+synology
 taboola
 tagtic-ads
 taikang
@@ -1152,6 +1155,7 @@ typography
 u17
 uber
 uberads-ads
+ubiquiti
 ubisoft
 ubuntu
 ubuntukylin
